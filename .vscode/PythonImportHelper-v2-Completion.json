@@ -1,10 +1,195 @@
 [
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
         "documentation": {}
     },
     {
@@ -45,6 +230,22 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Appointment",
+        "importPath": "appointment.models",
+        "description": "appointment.models",
+        "isExtraImport": true,
+        "detail": "appointment.models",
         "documentation": {}
     },
     {
@@ -88,155 +289,83 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Patient",
+        "importPath": "patient.models",
+        "description": "patient.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "patient.models",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Patient",
+        "importPath": "patient.models",
+        "description": "patient.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "patient.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Patient",
+        "importPath": "patient.models",
+        "description": "patient.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "patient.models",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AvailableTime",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Doctor",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AvailableTime",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Designation",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Doctor",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Review",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "Specialization",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
@@ -352,55 +481,6 @@
         "documentation": {}
     },
     {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
-        "documentation": {}
-    },
-    {
-        "label": "AvailableTime",
-        "importPath": "doctor.models",
-        "description": "doctor.models",
-        "isExtraImport": true,
-        "detail": "doctor.models",
-        "documentation": {}
-    },
-    {
-        "label": "Designation",
-        "importPath": "doctor.models",
-        "description": "doctor.models",
-        "isExtraImport": true,
-        "detail": "doctor.models",
-        "documentation": {}
-    },
-    {
-        "label": "Doctor",
-        "importPath": "doctor.models",
-        "description": "doctor.models",
-        "isExtraImport": true,
-        "detail": "doctor.models",
-        "documentation": {}
-    },
-    {
-        "label": "Review",
-        "importPath": "doctor.models",
-        "description": "doctor.models",
-        "isExtraImport": true,
-        "detail": "doctor.models",
-        "documentation": {}
-    },
-    {
-        "label": "Specialization",
-        "importPath": "doctor.models",
-        "description": "doctor.models",
-        "isExtraImport": true,
-        "detail": "doctor.models",
-        "documentation": {}
-    },
-    {
         "label": "User",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
@@ -414,22 +494,6 @@
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "Patient",
-        "importPath": "patient.models",
-        "description": "patient.models",
-        "isExtraImport": true,
-        "detail": "patient.models",
-        "documentation": {}
-    },
-    {
-        "label": "Patient",
-        "importPath": "patient.models",
-        "description": "patient.models",
-        "isExtraImport": true,
-        "detail": "patient.models",
         "documentation": {}
     },
     {
@@ -499,12 +563,57 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "appointment.migrations.0001_initial",
+        "description": "appointment.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('patient', '0002_alter_patient_image'),\n        ('doctor', '0003_alter_review_rating'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Appointment',\n            fields=[",
+        "detail": "appointment.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentAdmin",
+        "kind": 6,
+        "importPath": "appointment.admin",
+        "description": "appointment.admin",
+        "peekOfCode": "class AppointmentAdmin(admin.ModelAdmin):\n    list_display = ['doctor_name', 'patient_name', 'appointment_types', 'appointment_status', 'symptom', 'time', 'cancel']\n    def doctor_name(self,obj):\n        return f\"{obj.doctor.user.first_name} {obj.doctor.user.last_name}\"\n    def patient_name(self,obj):\n        return f\"{obj.doctor.user.first_name} {obj.doctor.user.last_name}\"\nadmin.site.register(Appointment, AppointmentAdmin)",
+        "detail": "appointment.admin",
+        "documentation": {}
+    },
+    {
         "label": "AppointmentConfig",
         "kind": 6,
         "importPath": "appointment.apps",
         "description": "appointment.apps",
         "peekOfCode": "class AppointmentConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'appointment'",
         "detail": "appointment.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Appointment",
+        "kind": 6,
+        "importPath": "appointment.models",
+        "description": "appointment.models",
+        "peekOfCode": "class Appointment(models.Model):\n    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)\n    appointment_status = models.CharField(max_length=50, choices=APPOINTMENT_STATUS, default=\"Pending\")\n    appointment_types = models.CharField(max_length=50, choices=APPOINTMENT_TYPES)\n    symptom = models.TextField()\n    time = models.OneToOneField(AvailableTime, on_delete=models.CASCADE)\n    cancel = models.BooleanField(default=False)\n    def __str__(self):\n        return f\"Doctor: {self.doctor.user.first_name}, Patient: {self.patient.user.first_name}\"",
+        "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "APPOINTMENT_TYPES",
+        "kind": 5,
+        "importPath": "appointment.models",
+        "description": "appointment.models",
+        "peekOfCode": "APPOINTMENT_TYPES = (\n    ('Online', 'Online'),\n    ('Offline', 'Offline'),\n)\nAPPOINTMENT_STATUS = (\n    ('Completed', 'Completed'),\n    ('Pending', 'Pending'),\n    ('Running', 'Running'),\n)\nclass Appointment(models.Model):",
+        "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "APPOINTMENT_STATUS",
+        "kind": 5,
+        "importPath": "appointment.models",
+        "description": "appointment.models",
+        "peekOfCode": "APPOINTMENT_STATUS = (\n    ('Completed', 'Completed'),\n    ('Pending', 'Pending'),\n    ('Running', 'Running'),\n)\nclass Appointment(models.Model):\n    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)\n    appointment_status = models.CharField(max_length=50, choices=APPOINTMENT_STATUS, default=\"Pending\")\n    appointment_types = models.CharField(max_length=50, choices=APPOINTMENT_TYPES)",
+        "detail": "appointment.models",
         "documentation": {}
     },
     {
@@ -577,6 +686,15 @@
         "description": "doctor.migrations.0002_review",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('patient', '0002_alter_patient_image'),\n        ('doctor', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Review',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "doctor.migrations.0002_review",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "doctor.migrations.0003_alter_review_rating",
+        "description": "doctor.migrations.0003_alter_review_rating",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('doctor', '0002_review'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='review',\n            name='rating',\n            field=models.CharField(choices=[('⭐', '⭐'), ('⭐⭐', '⭐⭐'), ('⭐⭐⭐', '⭐⭐⭐'), ('⭐⭐⭐⭐', '⭐⭐⭐⭐'), ('⭐⭐⭐⭐⭐', '⭐⭐⭐⭐⭐')], max_length=10),\n        ),",
+        "detail": "doctor.migrations.0003_alter_review_rating",
         "documentation": {}
     },
     {
