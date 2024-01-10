@@ -136,6 +136,54 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -296,12 +344,76 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "django.db.models.deletion",
         "description": "django.db.models.deletion",
         "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AvailableTime",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Designation",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Doctor",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Specialization",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -313,11 +425,11 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "Patient",
+        "importPath": "patient.models",
+        "description": "patient.models",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "patient.models",
         "documentation": {}
     },
     {
@@ -450,6 +562,42 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "doctor.migrations.0001_initial",
+        "description": "doctor.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='AvailableTime',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "doctor.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "doctor.migrations.0002_review",
+        "description": "doctor.migrations.0002_review",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('patient', '0002_alter_patient_image'),\n        ('doctor', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Review',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "doctor.migrations.0002_review",
+        "documentation": {}
+    },
+    {
+        "label": "SpecializationAdmin",
+        "kind": 6,
+        "importPath": "doctor.admin",
+        "description": "doctor.admin",
+        "peekOfCode": "class SpecializationAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug']\n    prepopulated_fields = {\"slug\" : (\"name\",)}\nadmin.site.register(Specialization, SpecializationAdmin)\nclass DesignationAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug']\n    prepopulated_fields = {\"slug\" : (\"name\",)}\nadmin.site.register(Designation, DesignationAdmin)\nadmin.site.register(AvailableTime)\nadmin.site.register(Doctor)",
+        "detail": "doctor.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DesignationAdmin",
+        "kind": 6,
+        "importPath": "doctor.admin",
+        "description": "doctor.admin",
+        "peekOfCode": "class DesignationAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug']\n    prepopulated_fields = {\"slug\" : (\"name\",)}\nadmin.site.register(Designation, DesignationAdmin)\nadmin.site.register(AvailableTime)\nadmin.site.register(Doctor)\nadmin.site.register(Review)",
+        "detail": "doctor.admin",
+        "documentation": {}
+    },
+    {
         "label": "DoctorConfig",
         "kind": 6,
         "importPath": "doctor.apps",
@@ -459,12 +607,75 @@
         "documentation": {}
     },
     {
+        "label": "Specialization",
+        "kind": 6,
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "peekOfCode": "class Specialization(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=60)\n    def __str__(self) -> str:\n        return self.name\nclass Designation(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=60)\n    def __str__(self):\n        return self.name",
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Designation",
+        "kind": 6,
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "peekOfCode": "class Designation(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=60)\n    def __str__(self):\n        return self.name\nclass AvailableTime(models.Model):\n    name = models.CharField(max_length=100)\n    def __str__(self):\n        return self.name\nclass Doctor(models.Model):",
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "AvailableTime",
+        "kind": 6,
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "peekOfCode": "class AvailableTime(models.Model):\n    name = models.CharField(max_length=100)\n    def __str__(self):\n        return self.name\nclass Doctor(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to=\"doctor/images/\")\n    specialization = models.ManyToManyField(Specialization)\n    designation = models.ManyToManyField(Designation)\n    available_time = models.ManyToManyField(AvailableTime)",
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Doctor",
+        "kind": 6,
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "peekOfCode": "class Doctor(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to=\"doctor/images/\")\n    specialization = models.ManyToManyField(Specialization)\n    designation = models.ManyToManyField(Designation)\n    available_time = models.ManyToManyField(AvailableTime)\n    fee = models.IntegerField()\n    meet_link = models.CharField(max_length=100)\n    def __str__(self):\n        return f\"Dr. {self.user.first_name} {self.user.last_name}\"",
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "peekOfCode": "class Review(models.Model):\n    reviewer = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)\n    body = models.TextField(blank=True)\n    created = models.DateTimeField(auto_now_add=True)\n    rating = models.CharField(max_length=10, choices=STAR_RATING)\n    def __str__(self):\n        return f\"{self.reviewer.user.first_name} {self.reviewer.user.last_name}\"",
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "STAR_RATING",
+        "kind": 5,
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "peekOfCode": "STAR_RATING = (\n    ('⭐', '⭐'),\n    ('⭐⭐', '⭐⭐'),\n    ('⭐⭐⭐', '⭐⭐⭐'),\n    ('⭐⭐⭐⭐', '⭐⭐⭐⭐'),\n    ('⭐⭐⭐⭐⭐', '⭐⭐⭐⭐⭐'),\n)\nclass Review(models.Model):\n    reviewer = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)",
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "patient.migrations.0001_initial",
         "description": "patient.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Patient',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "patient.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "patient.migrations.0002_alter_patient_image",
+        "description": "patient.migrations.0002_alter_patient_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('patient', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='patient',\n            name='image',\n            field=models.ImageField(upload_to='patients/images/'),\n        ),",
+        "detail": "patient.migrations.0002_alter_patient_image",
         "documentation": {}
     },
     {
@@ -490,7 +701,7 @@
         "kind": 6,
         "importPath": "patient.models",
         "description": "patient.models",
-        "peekOfCode": "class Patient(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to=\"patients/image\")\n    phone_no = models.CharField(max_length=15)\n    def __str__(self):\n        return f\"{self.user.first_name} {self.user.last_name}\"",
+        "peekOfCode": "class Patient(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to=\"patients/images/\")\n    phone_no = models.CharField(max_length=15)\n    def __str__(self):\n        return f\"{self.user.first_name} {self.user.last_name}\"",
         "detail": "patient.models",
         "documentation": {}
     },
