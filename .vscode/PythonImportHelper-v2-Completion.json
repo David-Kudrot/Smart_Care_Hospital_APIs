@@ -144,6 +144,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -264,6 +280,47 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "importPath": "patient.models",
+        "description": "patient.models",
+        "isExtraImport": true,
+        "detail": "patient.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
         "label": "Service",
         "importPath": "service.models",
         "description": "service.models",
@@ -302,14 +359,6 @@
         "description": "django.urls",
         "isExtraImport": true,
         "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -410,12 +459,39 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "patient.migrations.0001_initial",
+        "description": "patient.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Patient',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "patient.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PatientAdmin",
+        "kind": 6,
+        "importPath": "patient.admin",
+        "description": "patient.admin",
+        "peekOfCode": "class PatientAdmin(admin.ModelAdmin):\n    list_display = ['first_name', 'last_name', 'phone_no', 'image']\n    def first_name(self, obj):\n        return obj.user.first_name\n    def last_name(self, obj):\n        return obj.user.last_name\nadmin.site.register(Patient, PatientAdmin)",
+        "detail": "patient.admin",
+        "documentation": {}
+    },
+    {
         "label": "PatientConfig",
         "kind": 6,
         "importPath": "patient.apps",
         "description": "patient.apps",
         "peekOfCode": "class PatientConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'patient'",
         "detail": "patient.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Patient",
+        "kind": 6,
+        "importPath": "patient.models",
+        "description": "patient.models",
+        "peekOfCode": "class Patient(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to=\"patients/image\")\n    phone_no = models.CharField(max_length=15)\n    def __str__(self):\n        return f\"{self.user.first_name} {self.user.last_name}\"",
+        "detail": "patient.models",
         "documentation": {}
     },
     {
