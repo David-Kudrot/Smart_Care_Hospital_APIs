@@ -457,6 +457,182 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -527,14 +703,6 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -671,6 +839,42 @@
         "documentation": {}
     },
     {
+        "label": "ContactSerializers",
+        "kind": 6,
+        "importPath": "contact_us.serializers",
+        "description": "contact_us.serializers",
+        "peekOfCode": "class ContactSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = ContactUs\n        fields = '__all__'",
+        "detail": "contact_us.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "contact_us.urls",
+        "description": "contact_us.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('', views.ContactUsViewSet)\n# The API URLs are now determined automatically by the router. sob home a thakbe tai '' empty use kora hoise\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "contact_us.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "contact_us.urls",
+        "description": "contact_us.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "contact_us.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ContactUsViewSet",
+        "kind": 6,
+        "importPath": "contact_us.views",
+        "description": "contact_us.views",
+        "peekOfCode": "class ContactUsViewSet(viewsets.ModelViewSet):\n    queryset = ContactUs.objects.all()\n    serializer_class = ContactSerializers",
+        "detail": "contact_us.views",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "doctor.migrations.0001_initial",
@@ -779,6 +983,114 @@
         "documentation": {}
     },
     {
+        "label": "SpecializationSerializer",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class SpecializationSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Specialization\n        fields = '__all__'\nclass DesignationSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Designation\n        fields = '__all__'\nclass AvailableTimeSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DesignationSerializer",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class DesignationSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Designation\n        fields = '__all__'\nclass AvailableTimeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = AvailableTime\n        fields = '__all__'\nclass DoctorSerializer(serializers.ModelSerializer):\n    user = serializers.StringRelatedField(many=False)# many=False karon OneToOne relationship",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AvailableTimeSerializer",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class AvailableTimeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = AvailableTime\n        fields = '__all__'\nclass DoctorSerializer(serializers.ModelSerializer):\n    user = serializers.StringRelatedField(many=False)# many=False karon OneToOne relationship\n    specialization = serializers.StringRelatedField(many=True)#many=True karon many to many relationship\n    designation = serializers.StringRelatedField(many=True) # many=True karon many to many relationship\n    available_time = serializers.StringRelatedField(many=True)#many=True karon many to many relationship\n    class Meta:",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorSerializer",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class DoctorSerializer(serializers.ModelSerializer):\n    user = serializers.StringRelatedField(many=False)# many=False karon OneToOne relationship\n    specialization = serializers.StringRelatedField(many=True)#many=True karon many to many relationship\n    designation = serializers.StringRelatedField(many=True) # many=True karon many to many relationship\n    available_time = serializers.StringRelatedField(many=True)#many=True karon many to many relationship\n    class Meta:\n        model = Doctor\n        fields = '__all__'\nclass ReviewSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewSerializer",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class ReviewSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Review\n        fields = '__all__'",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "doctor.urls",
+        "description": "doctor.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('list', DoctorViewSet)\nrouter.register('specialization', SpecializationViewSet)\nrouter.register('designation', DesignationViewSet)\nrouter.register('available_time', AvailableTimeViewSet)\nrouter.register('reviews', ReviewViewSet)\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "doctor.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "doctor.urls",
+        "description": "doctor.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "doctor.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SpecializationViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class SpecializationViewSet(viewsets.ModelViewSet):\n    queryset = Specialization.objects.all()\n    serializer_class = SpecializationSerializer\nclass DesignationViewSet(viewsets.ModelViewSet):\n    queryset = Designation.objects.all()\n    serializer_class = DesignationSerializer\nclass AvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = AvailableTime.objects.all()\n    serializer_class = AvailableTimeSerializer\nclass DoctorViewSet(viewsets.ModelViewSet):",
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
+        "label": "DesignationViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class DesignationViewSet(viewsets.ModelViewSet):\n    queryset = Designation.objects.all()\n    serializer_class = DesignationSerializer\nclass AvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = AvailableTime.objects.all()\n    serializer_class = AvailableTimeSerializer\nclass DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):",
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
+        "label": "AvailableTimeViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class AvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = AvailableTime.objects.all()\n    serializer_class = AvailableTimeSerializer\nclass DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class ReviewViewSet(viewsets.ModelViewSet):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "patient.migrations.0001_initial",
@@ -824,6 +1136,42 @@
         "documentation": {}
     },
     {
+        "label": "PatientSerializer",
+        "kind": 6,
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "peekOfCode": "class PatientSerializer(serializers.ModelSerializer):\n    user = serializers.StringRelatedField(many=False)#user disi karon Patient model a user attribute ase, r many=False korsi karon OneToOne relationship ache , but one to many or ForeignKey relationship thakle ba manytomany thakle many=True kortam, bujso paglu\n    class Meta:\n        model = Patient\n        fields = '__all__'",
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "patient.urls",
+        "description": "patient.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('list', PatientViewSets)\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "patient.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "patient.urls",
+        "description": "patient.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "patient.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PatientViewSets",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class PatientViewSets(viewsets.ModelViewSet):\n    queryset = Patient.objects.all()\n    serializer_class = PatientSerializer",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "service.migrations.0001_initial",
@@ -848,6 +1196,42 @@
         "description": "service.models",
         "peekOfCode": "class Service(models.Model):\n    name = models.CharField(max_length=50)\n    description = models.TextField()\n    image = models.ImageField(upload_to=\"services/images\")\n    def __str__(self):\n        return f\"{self.name}\"",
         "detail": "service.models",
+        "documentation": {}
+    },
+    {
+        "label": "ServiceSerializers",
+        "kind": 6,
+        "importPath": "service.serializers",
+        "description": "service.serializers",
+        "peekOfCode": "class ServiceSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = Service\n        fields = '__all__'",
+        "detail": "service.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "service.urls",
+        "description": "service.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('', views.ServiceViewSet)\n# The API URLs are now determined automatically by the router. sob home a thakbe tai '' empty use kora hoise\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "service.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "service.urls",
+        "description": "service.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "service.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ServiceViewSet",
+        "kind": 6,
+        "importPath": "service.views",
+        "description": "service.views",
+        "peekOfCode": "class ServiceViewSet(viewsets.ModelViewSet):\n    queryset = Service.objects.all()\n    serializer_class = ServiceSerializers",
+        "detail": "service.views",
         "documentation": {}
     },
     {
@@ -963,7 +1347,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL ='static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -972,7 +1356,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL ='static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -981,7 +1365,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'uploads'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL ='static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -990,16 +1374,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'uploads'",
-        "detail": "smart_care.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "smart_care.settings",
-        "description": "smart_care.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'uploads'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL ='static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1008,16 +1383,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'uploads'",
-        "detail": "smart_care.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_URL",
-        "kind": 5,
-        "importPath": "smart_care.settings",
-        "description": "smart_care.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'uploads'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1026,7 +1392,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'uploads'",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR/'uploads'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1035,7 +1401,7 @@
         "kind": 5,
         "importPath": "smart_care.urls",
         "description": "smart_care.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL,\n                          document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('contact_us/', include('contact_us.urls')),\n    path('services/', include('service.urls')),\n    path('patient/', include('patient.urls')),\n    path('doctor/', include('doctor.urls')),\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "smart_care.urls",
         "documentation": {}
     },

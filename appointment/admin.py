@@ -9,7 +9,7 @@ class AppointmentAdmin(admin.ModelAdmin):
     def doctor_name(self,obj):
         return f"{obj.doctor.user.first_name} {obj.doctor.user.last_name}"
     def patient_name(self,obj):
-        return f"{obj.doctor.user.first_name} {obj.doctor.user.last_name}"
+        return f"{obj.patient.user.first_name} {obj.patient.user.last_name}"
     
     
 admin.site.register(Appointment, AppointmentAdmin)
