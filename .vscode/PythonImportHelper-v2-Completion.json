@@ -16,6 +16,54 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -369,11 +417,83 @@
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -406,6 +526,150 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
@@ -434,6 +698,14 @@
     },
     {
         "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -457,182 +729,6 @@
         "documentation": {}
     },
     {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -670,6 +766,134 @@
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
         "documentation": {}
     },
     {
@@ -703,6 +927,15 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
         "documentation": {}
     },
     {
@@ -740,11 +973,38 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "appointment.migrations.0002_remove_appointment_time_appointment_time",
+        "description": "appointment.migrations.0002_remove_appointment_time_appointment_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('doctor', '0003_alter_review_rating'),\n        ('appointment', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='appointment',\n            name='time',\n        ),",
+        "detail": "appointment.migrations.0002_remove_appointment_time_appointment_time",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "appointment.migrations.0003_remove_appointment_time_appointment_time",
+        "description": "appointment.migrations.0003_remove_appointment_time_appointment_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('doctor', '0003_alter_review_rating'),\n        ('appointment', '0002_remove_appointment_time_appointment_time'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='appointment',\n            name='time',\n        ),",
+        "detail": "appointment.migrations.0003_remove_appointment_time_appointment_time",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "appointment.migrations.0004_alter_appointment_time",
+        "description": "appointment.migrations.0004_alter_appointment_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('doctor', '0003_alter_review_rating'),\n        ('appointment', '0003_remove_appointment_time_appointment_time'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='appointment',\n            name='time',\n            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='doctor.availabletime'),",
+        "detail": "appointment.migrations.0004_alter_appointment_time",
+        "documentation": {}
+    },
+    {
         "label": "AppointmentAdmin",
         "kind": 6,
         "importPath": "appointment.admin",
         "description": "appointment.admin",
-        "peekOfCode": "class AppointmentAdmin(admin.ModelAdmin):\n    list_display = ['doctor_name', 'patient_name', 'appointment_types', 'appointment_status', 'symptom', 'time', 'cancel']\n    def doctor_name(self,obj):\n        return f\"{obj.doctor.user.first_name} {obj.doctor.user.last_name}\"\n    def patient_name(self,obj):\n        return f\"{obj.doctor.user.first_name} {obj.doctor.user.last_name}\"\nadmin.site.register(Appointment, AppointmentAdmin)",
+        "peekOfCode": "class AppointmentAdmin(admin.ModelAdmin):\n    list_display = ['doctor_name', 'patient_name', 'appointment_types', 'appointment_status', 'symptom', 'time', 'cancel']\n    def doctor_name(self,obj):\n        return f\"{obj.doctor.user.first_name} {obj.doctor.user.last_name}\"\n    def patient_name(self,obj):\n        return f\"{obj.patient.user.first_name} {obj.patient.user.last_name}\"\nadmin.site.register(Appointment, AppointmentAdmin)",
         "detail": "appointment.admin",
         "documentation": {}
     },
@@ -762,7 +1022,7 @@
         "kind": 6,
         "importPath": "appointment.models",
         "description": "appointment.models",
-        "peekOfCode": "class Appointment(models.Model):\n    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)\n    appointment_status = models.CharField(max_length=50, choices=APPOINTMENT_STATUS, default=\"Pending\")\n    appointment_types = models.CharField(max_length=50, choices=APPOINTMENT_TYPES)\n    symptom = models.TextField()\n    time = models.OneToOneField(AvailableTime, on_delete=models.CASCADE)\n    cancel = models.BooleanField(default=False)\n    def __str__(self):\n        return f\"Doctor: {self.doctor.user.first_name}, Patient: {self.patient.user.first_name}\"",
+        "peekOfCode": "class Appointment(models.Model):\n    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)\n    appointment_status = models.CharField(max_length=50, choices=APPOINTMENT_STATUS, default=\"Pending\")\n    appointment_types = models.CharField(max_length=50, choices=APPOINTMENT_TYPES)\n    symptom = models.TextField()\n    time = models.ForeignKey(AvailableTime, on_delete=models.CASCADE, null=True)\n    cancel = models.BooleanField(default=False)\n    def __str__(self):\n        return f\"Doctor: {self.doctor.user.first_name}, Patient: {self.patient.user.first_name}\"",
         "detail": "appointment.models",
         "documentation": {}
     },
@@ -782,6 +1042,42 @@
         "description": "appointment.models",
         "peekOfCode": "APPOINTMENT_STATUS = (\n    ('Completed', 'Completed'),\n    ('Pending', 'Pending'),\n    ('Running', 'Running'),\n)\nclass Appointment(models.Model):\n    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)\n    appointment_status = models.CharField(max_length=50, choices=APPOINTMENT_STATUS, default=\"Pending\")\n    appointment_types = models.CharField(max_length=50, choices=APPOINTMENT_TYPES)",
         "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentSerializer",
+        "kind": 6,
+        "importPath": "appointment.serializers",
+        "description": "appointment.serializers",
+        "peekOfCode": "class AppointmentSerializer(serializers.ModelSerializer):\n    patient = serializers.StringRelatedField(many=False) # many=False cuz, in models.py we used ForeignKey relationship\n    doctor = serializers.StringRelatedField(many=False) # many=False cuz, in models.py we used ForeignKey relationship\n    time = serializers.StringRelatedField(many=False)\n    class Meta:\n        model = Appointment\n        fields = '__all__'",
+        "detail": "appointment.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "appointment.urls",
+        "description": "appointment.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('', AppointmentView)\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "appointment.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "appointment.urls",
+        "description": "appointment.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "appointment.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentView",
+        "kind": 6,
+        "importPath": "appointment.views",
+        "description": "appointment.views",
+        "peekOfCode": "class AppointmentView(viewsets.ModelViewSet):\n    queryset = Appointment.objects.all()\n    serializer_class = AppointmentSerializer\n    # custom query parameters url a pass korle sei parameter k set korte ekhane get_queryset method use korte hobe, mane url a jodi patient_id=1 parameter pass korte chai tobe ekhane sei patient_id param ta set korte ei method use korbo\n    def get_queryset(self):\n        queryset = super().get_queryset() \n        patient_id = self.request.query_params.get('patient_id')# url theke parameter ta get korlam\n        # ebar check korbo je jodi patient_id exist kore\n        if patient_id:\n            queryset = queryset.filter(patient_id=patient_id)#present_attribute_patient_id = patient_id_from_url",
+        "detail": "appointment.views",
         "documentation": {}
     },
     {
@@ -1068,7 +1364,7 @@
         "kind": 6,
         "importPath": "doctor.views",
         "description": "doctor.views",
-        "peekOfCode": "class AvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = AvailableTime.objects.all()\n    serializer_class = AvailableTimeSerializer\nclass DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "peekOfCode": "class AvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = AvailableTime.objects.all()\n    serializer_class = AvailableTimeSerializer\nclass DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):\n    permission_classes = [IsAuthenticated]\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
         "detail": "doctor.views",
         "documentation": {}
     },
@@ -1077,7 +1373,7 @@
         "kind": 6,
         "importPath": "doctor.views",
         "description": "doctor.views",
-        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = Doctor.objects.all()\n    serializer_class = DoctorSerializer\nclass ReviewViewSet(viewsets.ModelViewSet):\n    permission_classes = [IsAuthenticated]\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
         "detail": "doctor.views",
         "documentation": {}
     },
@@ -1086,7 +1382,7 @@
         "kind": 6,
         "importPath": "doctor.views",
         "description": "doctor.views",
-        "peekOfCode": "class ReviewViewSet(viewsets.ModelViewSet):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
+        "peekOfCode": "class ReviewViewSet(viewsets.ModelViewSet):\n    permission_classes = [IsAuthenticated]\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer",
         "detail": "doctor.views",
         "documentation": {}
     },
@@ -1140,7 +1436,25 @@
         "kind": 6,
         "importPath": "patient.serializers",
         "description": "patient.serializers",
-        "peekOfCode": "class PatientSerializer(serializers.ModelSerializer):\n    user = serializers.StringRelatedField(many=False)#user disi karon Patient model a user attribute ase, r many=False korsi karon OneToOne relationship ache , but one to many or ForeignKey relationship thakle ba manytomany thakle many=True kortam, bujso paglu\n    class Meta:\n        model = Patient\n        fields = '__all__'",
+        "peekOfCode": "class PatientSerializer(serializers.ModelSerializer):\n    user = serializers.StringRelatedField(many=False)#user disi karon Patient model a user attribute ase, r many=False korsi karon OneToOne relationship ache , but one to many or ForeignKey relationship thakle ba manytomany thakle many=True kortam, bujso paglu\n    class Meta:\n        model = Patient\n        fields = '__all__'\n#patient er registration form toiri\nclass RegistrationSerializerPatient(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required=True)#ekhane confirm_password field dite hobe\n    class Meta:\n        model = User",
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationSerializerPatient",
+        "kind": 6,
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "peekOfCode": "class RegistrationSerializerPatient(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required=True)#ekhane confirm_password field dite hobe\n    class Meta:\n        model = User\n        fields = ['username', 'first_name', 'last_name', 'email', 'password', 'confirm_password']\n    # save method use korte hobe validation check korar jonno o save korar jonno\n    def save(self):\n        username = self.validated_data['username'] # serializer er khetre cleaned_data er poriborte validated_data use korte hobe\n        first_name = self.validated_data['first_name']\n        last_name = self.validated_data['last_name']",
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializer",
+        "kind": 6,
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "peekOfCode": "class UserLoginSerializer(serializers.Serializer):\n    username = serializers.CharField(required=True)\n    password = serializers.CharField(required=True)",
         "detail": "patient.serializers",
         "documentation": {}
     },
@@ -1149,7 +1463,7 @@
         "kind": 5,
         "importPath": "patient.urls",
         "description": "patient.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register('list', PatientViewSets)\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('list', PatientViewSets)\nurlpatterns = [\n    path('', include(router.urls)),\n    path('register/', UserRegistrationAPIView.as_view(), name='register'),\n    path('login/', UserLoginAPIView.as_view(), name='login'),\n    # path('active/<uid64>/<token>/', views.activate, name = 'activate'),# function based activation\n    path('active/<str:uid64>/<str:token>', ActivateAccount.as_view(), name='activate_account'), # class based activation\n   path('logout/', UserLogoutView.as_view(), name='logout'),\n]",
         "detail": "patient.urls",
         "documentation": {}
     },
@@ -1158,7 +1472,7 @@
         "kind": 5,
         "importPath": "patient.urls",
         "description": "patient.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n    path('register/', UserRegistrationAPIView.as_view(), name='register'),\n    path('login/', UserLoginAPIView.as_view(), name='login'),\n    # path('active/<uid64>/<token>/', views.activate, name = 'activate'),# function based activation\n    path('active/<str:uid64>/<str:token>', ActivateAccount.as_view(), name='activate_account'), # class based activation\n   path('logout/', UserLogoutView.as_view(), name='logout'),\n]",
         "detail": "patient.urls",
         "documentation": {}
     },
@@ -1167,7 +1481,43 @@
         "kind": 6,
         "importPath": "patient.views",
         "description": "patient.views",
-        "peekOfCode": "class PatientViewSets(viewsets.ModelViewSet):\n    queryset = Patient.objects.all()\n    serializer_class = PatientSerializer",
+        "peekOfCode": "class PatientViewSets(viewsets.ModelViewSet):\n    queryset = Patient.objects.all()\n    serializer_class = PatientSerializer\n# APIView for user registration\nclass UserRegistrationAPIView(APIView):\n    serializer_class = RegistrationSerializerPatient\n    #post request korbo get noi karon form submit kora hobe\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)#data instacne set kora holo data serializer class a built in keyword thake\n        if serializer.is_valid():",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationAPIView",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class UserRegistrationAPIView(APIView):\n    serializer_class = RegistrationSerializerPatient\n    #post request korbo get noi karon form submit kora hobe\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)#data instacne set kora holo data serializer class a built in keyword thake\n        if serializer.is_valid():\n            user = serializer.save()\n            print(user)\n            token = default_token_generator.make_token(user) # ei specific user er jonno token generate kora holo\n            uid = urlsafe_base64_encode(force_bytes(user.pk)) # user er pk die specific uid make kora hobe ja encode a convert hobe",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
+        "label": "ActivateAccount",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class ActivateAccount(View):\n    def get(self, request, uid64, token):\n        try:\n            uid = urlsafe_base64_decode(uid64).decode()\n            user = User._default_manager.get(pk=uid)\n        except User.DoesNotExist:\n            user = None \n        if user is not None and default_token_generator.check_token(user, token):\n            user.is_active = True\n            user.save()",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginAPIView",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class UserLoginAPIView(APIView):\n    def post(self, request):  # jehetu login korte form post kora lage tai only post use korlam\n        serializer = UserLoginSerializer(data=self.request.data) # same to same jemon form = forms.UserLoginForm(user=self.request.user) kortam\n        if serializer.is_valid():\n            username = serializer.validated_data['username']\n            password = serializer.validated_data['password']\n            user = authenticate(username=username, password=password)\n            if user:\n                token, _ = Token.objects.get_or_create(user=user)# token = token thakbe or  _ = toaken create hobe\n                print(token)",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogoutView",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class UserLogoutView(APIView):\n    def get(self, request):\n        request.user.auth_token.delete() # toiri kora token ta delete kora holo jeno logout korar por same token die login na korte pare\n        logout(request)\n        return redirect('login')",
         "detail": "patient.views",
         "documentation": {}
     },
@@ -1244,11 +1594,20 @@
         "documentation": {}
     },
     {
+        "label": "env",
+        "kind": 5,
+        "importPath": "smart_care.settings",
+        "description": "smart_care.settings",
+        "peekOfCode": "env = environ.Env()\nenviron.Env.read_env()\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Your secret key\nSECRET_KEY = env(\"SECRET_KEY\")\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-poj_eyyni2gb&a5z407nguok)wf)l)-o-ubh1+nrfv1q*#ay8q'",
+        "detail": "smart_care.settings",
+        "documentation": {}
+    },
+    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-poj_eyyni2gb&a5z407nguok)wf)l)-o-ubh1+nrfv1q*#ay8q'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Your secret key\nSECRET_KEY = env(\"SECRET_KEY\")\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-poj_eyyni2gb&a5z407nguok)wf)l)-o-ubh1+nrfv1q*#ay8q'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1257,7 +1616,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-poj_eyyni2gb&a5z407nguok)wf)l)-o-ubh1+nrfv1q*#ay8q'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = env(\"SECRET_KEY\")\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n# SECRET_KEY = 'django-insecure-poj_eyyni2gb&a5z407nguok)wf)l)-o-ubh1+nrfv1q*#ay8q'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1320,7 +1679,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'smart_care.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'smart_care.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# setting a eta add korar karone keo authenticated chara access korte parbe na data, r jodi particular vabe specific view er jonno authenticated korte chai tobe views a import korte hobe, doctor app a review er jonno korsi. ",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1329,7 +1688,16 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# setting a eta add korar karone keo authenticated chara access korte parbe na data, r jodi particular vabe specific view er jonno authenticated korte chai tobe views a import korte hobe, doctor app a review er jonno korsi. \nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PERMISSION_CLASSES': [",
+        "detail": "smart_care.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "smart_care.settings",
+        "description": "smart_care.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.IsAuthenticated',\n    ]\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1374,7 +1742,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL ='static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL ='static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1383,7 +1751,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL ='/media/'\nMEDIA_ROOT = BASE_DIR/'uploads'\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_USE_TLS=True\nEMAIL_PORT=587\nEMAIL_HOST_USER=env(\"EMAIL\")\nEMAIL_HOST_PASSWORD=env(\"EMAIL_PASSWORD\")",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1392,7 +1760,7 @@
         "kind": 5,
         "importPath": "smart_care.settings",
         "description": "smart_care.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR/'uploads'",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR/'uploads'\nEMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST='smtp.gmail.com'\nEMAIL_USE_TLS=True\nEMAIL_PORT=587\nEMAIL_HOST_USER=env(\"EMAIL\")\nEMAIL_HOST_PASSWORD=env(\"EMAIL_PASSWORD\")",
         "detail": "smart_care.settings",
         "documentation": {}
     },
@@ -1401,7 +1769,7 @@
         "kind": 5,
         "importPath": "smart_care.urls",
         "description": "smart_care.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('contact_us/', include('contact_us.urls')),\n    path('services/', include('service.urls')),\n    path('patient/', include('patient.urls')),\n    path('doctor/', include('doctor.urls')),\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('contact_us/', include('contact_us.urls')),\n    path('services/', include('service.urls')),\n    path('patient/', include('patient.urls')),\n    path('doctor/', include('doctor.urls')),\n    path('appointment/', include('appointment.urls')),\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "smart_care.urls",
         "documentation": {}
     },

@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticated # secure korar jonno
 
 from .models import Specialization, Designation, AvailableTime, Doctor, Review
 
@@ -25,5 +26,6 @@ class DoctorViewSet(viewsets.ModelViewSet):
     
     
 class ReviewViewSet(viewsets.ModelViewSet):
+    permission_classes = [IsAuthenticated]
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
